@@ -8,6 +8,7 @@
       "plugin:react/recommended",
       "plugin:@typescript-eslint/recommended",
       "plugin:prettier/recommended",
+      "plugin:json/recommended",
       "plugin:stylelint/recommended"
     ],
     "parser": "@typescript-eslint/parser",
@@ -18,7 +19,7 @@
       "ecmaVersion": 2024,
       "sourceType": "module"
     },
-    "plugins": ["react", "@typescript-eslint", "prettier", "stylelint"],
+    "plugins": ["react", "@typescript-eslint", "prettier", "stylelint", "json"],
     "rules": {
       "prettier/prettier": "error",
       "indent": ["error", 2],
